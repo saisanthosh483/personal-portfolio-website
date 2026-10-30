@@ -556,10 +556,13 @@ footer {
     display: block;
 }
 .profile-card-photo {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
+    object-position: center 35%;
     border-radius: 50%;
     border: 3px solid #38bdf8;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
+    display: block;
+    image-rendering: auto;
 }
