@@ -545,4 +545,21 @@ footer {
     }
 
 }
-
+/* Profile photo on homepage */
+.hero-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #3b82f6;
+    margin-bottom: 20px;
+    display: block;
+}
+.profile-card-photo {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+    margin-bottom: 20px;
+}
